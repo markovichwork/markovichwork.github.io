@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Comfortaa', cursive;
+		}
+		:root {
+			--main-color: #E6E7E8;
+			--second-color: #FFFFFF;
+		}
+		header {
+			width: 100%;
+			padding: 1rem 2rem;
+			background-color: var(--main-color);
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		nav > a {
+			padding: 0.5rem;
+			border: 2px solid transparent;
+			text-decoration: none;
+			font-size: 1.5rem;
+			transition: 0.3s ease;
+			color: black;
+		}
+		nav > a:hover {
+			background-color: #BCBEC0;
+			border-bottom: 4px solid white;
+			border-radius: 4px;
+		}
+		.header_img_container {
+			width: 100px;
+		}
+		img {
+			width: 40%;
+			height: auto;
+			border-radius: 16px;
+		}
+		h1 {
+			text-align: center;
+			font-size: 30px;
+			margin: 50px
+		}
+		.main {
+			width: 90%
+			margin: 2rem auto;
+		}
+		p {
+		font-family: 'Comfortaa', cursive;
+		text-align: center;
+		font-size: 25px;
+		
+	}
+	.hero {
+		display: flex;
+		align-items: center;
+		margin: 2rem auto;
+	}
+	.hero-left, .hero-right {
+		flex: 50%;
+		width: 50%;
+	}
+	.hero-right > img {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+	.hero-right{
+		padding: 1rem;
+	}
+	.hero-left > h1 {
+		font-size: 2.5rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05rem;
+		padding-right: 1rem;
+		line-height: 141%
+	}
+	.quote {
+		width: 50%;
+		margin: 2rem auto;
+	}
+	.quote > h2 {
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 500;
+		height: fit-content;
+		position: relative;
+		line-height: 145%;
+	}
+	.quote > h2::after{
+
+		font-size: 5rem;
+		position: absolute;
+		right: -10px;
+	}
+	.quote > h2::before{
+
+		font-size: 5rem;
+		position: absolute;
+		left: -30px;
+		top: -30px;
+	}
+	.urus {
+		text-align: center;
+		font-size: 50px;
+	}
+	.img3 {
+		margin: 15px 0;
+		width: 80%;
+		height: 80%;
+	}
+	.img3div {
+	  text-align: center;
+	}
+	.active {
+	border-bottom: 4px solid white;
+	}
+	.harakteristiki {
+		font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+	margin: 5px auto;
+	padding: 10px;
+	line-height: 175%;
+	}
+	.text {
+	font-size: 2.4rem;
+    text-align: center;
+    color: #202020;
+    width: 980px;
+	margin: 5px auto;
+	padding: 20px;
+	}
+	.img2ha {
+		margin: 60px 0;
+		width: 50%;
+		height: 50%;
+	}
+	.p-descriptions {
+		width:80%;
+		margin: 1rem auto;
+		line-height: 131%;
+	}
+	#scrollTop {
+			width: 40px;
+			height: 40px;
+			position: fixed;
+			bottom: 40px;
+			right: 40px;
+			border-radius: 4px;
+		}
+	.imgscrol {
+		width: 100%;
+		height: auto;
+	}
+	.harakteristiki2 {
+	font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 191%;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+	margin: 5px auto;
+	padding: 10px;
+	text-align: center;
+
+	}
+	.harakteristiki2 > li {
+		list-style-type: none;
+		font-weight: 500;
+	}
+	.urus2 {
+		text-align: center;
+		font-size: 50px;
+		margin: 40px;
+	}
+	
+	.swiper {
+ 	 width: 100%;
+	 height: fit-content;
+	}
+	
+	h2 {
+		text-align: center;
+	}
+	.podval {
+		font-size: 1.2rem;
+	}
+	footer {
+		padding: 2rem 3rem;
+		width: 100%;
+		background-color: var(--main-color)
+	}
+	.footer-container {
+		display: flex;
+		gap: 1rem;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.footer-container > h3 {
+		font-size: 1.1rem;
+	}
+	.icons-container {
+		display: flex;
+		gap: 0.3rem;
+		flex-wrap: wrap;
+	}
+	.icons-container > a > img {
+		width: 48px;
+		height: 48px;
+		object-fit: cover;
+	}
+	.swiper {
+		width: 95%;
+	}
+			.form {
+			width: 600px;
+			display: flex;
+			border-radius: 8px;
+			flex-direction: column;
+			align-items: center;
+			background-color: lightgray;
+			padding: 4rem;
+			justify-content: center;
+			margin: auto;
+			gap: 1rem;
+			margin-top: 30px;
+			margin-bottom: 50px;
+		}
+	.form > input {
+		padding: 0.5rem 1rem;
+		border-radius: 4px;
+		border: none;
+		width: 90%;
+	}
+	.form > textarea {
+		padding: 0.5rem 1rem;
+		border-radius: 4px;
+		border: none;
+		resize: vertical;
+		width: 90%;
+	}
+	.form > button {
+		padding: 0.5rem 1rem;
+		border-radius: 4px;
+		border: none;
+		width: 90%;
+	}
+	.form > p {
+		margin-top: -8px;
+		color: black;
+		margin-bottom: 20px;
+		line-height: 161%;
+	}
+	.gallil {
+		text-align: center;
+		text-decoration: none;
+			 list-style-type: none;
+	}
+	.galli > img {
+		width: 80%;
+		height: auto;
+		margin: 25px;
+		text-decoration: none;
+			 list-style-type: none;
+	}
+	.huuh {
+		font-size: 60px;
+		letter-spacing: 7px;
+	}
+	.galli {
+		text-decoration: none;
+		 list-style-type: none;
+	}
